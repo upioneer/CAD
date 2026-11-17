@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  hygiene_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Tree
+        uses: actions/checkout@v4
+
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile Check (all scripts must parse)
+        run: python -m compileall -q src tests
+
+      - name: Execute Test Suite
+        run: python tests/test_tree_bounds.py

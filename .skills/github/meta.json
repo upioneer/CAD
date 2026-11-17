@@ -1,0 +1,15 @@
+{
+  "label": "GitHub",
+  "description": "GitHub repository management, structured issue intake, .env-based identity, and CI/CD automation",
+  "version": "9",
+  "target": ".skills/github",
+  "hasSandbox": false,
+  "logo": [
+    "   ██████╗ ██╗████████╗██╗  ██╗██╗   ██╗██████╗   ",
+    "  ██╔════╝ ██║╚══██╔══╝██║  ██║██║   ██║██╔══██╗  ",
+    "  ██║  ███╗██║   ██║   ███████║██║   ██║██████╔╝  ",
+    "  ██║   ██║██║   ██║   ██╔══██║██║   ██║██╔══██╗  ",
+    "  ╚██████╔╝██║   ██║   ██║  ██║╚██████╔╝██████╔╝  ",
+    "   ╚═════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝   "
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://code-scaffold.com/schemas/v1/skill-manifest.json",
+  "specification": "https://code-scaffold.com/spec/v1",
+  "name": "cad-tools",
+  "version": "19",
+  "description": "Comprehensive CAD/CAM engineering skill for AI agents: orchestrating generative design, topology optimization with the Alien Meter slider, OpenSCAD CSG compilation, CadQuery and build123d parametric scripting, FreeCAD automation, cadcraft precision 2D drafting with DXF interchange and sheet plotting, Pali Ijo headless BREP modeling, PhysCAD MCP driven CAD/CAM, and multi-format conversion.",
+  "entryPoint": "./SKILL.md",
+  "engines": {
+    "python": ">=3.10",
+    "node": ">=18"
+  },
+  "requiredPermissions": [
+    "fs:read",
+    "fs:write",
+    "net:connect",
+    "process:spawn"
+  ],
+  "category": "Animation & Graphics",
+  "keywords": [
+    "cad-tools",
+    "cad",
+    "generative-design",
+    "topology-optimization",
+    "alien-meter",
+    "fea-stress",
+    "additive-manufacturing",
+    "3d-modeling",
+    "step-files",
+    "stl",
+    "parametric-design",
+    "openscad",
+    "cadquery",
+    "csg-modeling",
+    "freecad",
+    "partdesign",
+    "b-rep",
+    "opencascade",
+    "sketcher",
+    "headless-cad",
+    "3mf",
+    "manufacturing-audit",
+    "cadcraft",
+    "precision-drafting",
+    "dxf-interchange",
+    "drawing-audit",
+    "sheet-plotting",
+    "palicad",
+    "pali-ijo",
+    "physcad"
+  ],
+  "hasSandbox": true,
+  "integrity": "cs:sha256:c708e93ea3dbc6a5877084da33e52e035ed8b6999ac23f8a5a6943356490c370"
+}

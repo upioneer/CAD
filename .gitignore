@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+target/
+
+# Code Scaffold Project Details (Local Context)
+project_details/*.md
+!project_details/readme.md
+
+!project_details/changelog/
+!project_details/playbooks/
+!project_details/proof/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# FreeCAD session artifacts (keep .FCStd models, drop backups/locks)
+*.FCBak
+*.FCStd1
+*.lock
+
+# Editor and OS artifacts
+.vscode/
+.idea/
+Thumbs.db
